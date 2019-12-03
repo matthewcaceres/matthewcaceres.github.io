@@ -17,6 +17,7 @@ included in all copies or substantial portions of the Software.
 
 
 (function(){
+  
 
     var TIMER = null;
     var HAS_SWITCHED = false;
@@ -137,6 +138,7 @@ included in all copies or substantial portions of the Software.
         HAS_SWITCHED = true;    
       }
     }
-      
+    
+    var temp;
       
     })();
