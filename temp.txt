@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Matthew Caceres | Software Developer & More  </title>
+	<link href = "/css/bootstrap.min.css" rel = "stylesheet">
+
+</head>
+<body>
+	<h1>Life of Matt           (WORK IN PROGRESS)</h1>
+	<strong>Home About Contact</strong>
+	<div class= "border">
+		<h2>Education</h2>
+		<p>I am currently pursuing a bachelors in computer science from Stony Brook University (2017-2021). I have taken these CS related courses:
+			<ul>
+				<LI>CSE 114: Computer Science I: Intro to CS</LI>
+				<LI>CSE 214: Computer Science II: Data Structures and Algorithms</LI>
+				<LI>CSE 215: Foundations of Computer Science: Logic and Proofs</LI>
+				<LI>AMS 210: Applied Linear Algebra</LI>
+				<LI>AMS 301: Finite Mathematical Structures</LI>
+			</ul>
+			Languages: 
+			<ul>
+				<LI>Java (Main)</LI>
+				<LI>Python (Secondary)</LI>
+				<LI>SML (Experience)</LI>
+				<LI>HTML/CSS</LI>
+			</ul>
+	</p>
+	</div>
+	<div class = "border">
+		<h2>About Me</h2>
+		<p>I am from White Plains, NY. It's in Westchester county, the county above NYC. I absolutely love White Plains for the people, places, and food. I wasn't a full fledged gamer until middle school when I got my first xbox. That is when I also gained great interest in the future of technology. Today I don't play as much games as I used to because of college, but I thoroughly enjoy Leage of Legends, Overwatch, and many single player games. Obviously coding is my other hobby. I look forward to what more I could learn in university in terms of Computer Science because I love a challenge. I also love food. Asian, Mexican, Spanish food, anything is fine with me. Anything with rice is even more fine. Furthermore, while I don't know what the future entails, I hope my love for computers and coding grow as I grow.</p>
+	</div>
+	<div class = "border">
+		<h2>Projects/Experience</h2>
+		<ul>This website and school projects... for now</ul>
+	</div>
+
+	<div class = "border">
+		<h2>Currently working on...</h2>
+		<ul>
+			<LI>Google chrome extension</LI>
+			<LI>Android study app</LI>
+			<LI>Testing Kotlin</LI>
+			<LI>Learning SQL and more</LI>
+			<LI>Web app using google maps api and databases</LI>
+		</ul>
+	</div>
+	<img src="images/IMG_0230.JPG" alt = "Teddy"  >
+	
+
+</body>
+</html>

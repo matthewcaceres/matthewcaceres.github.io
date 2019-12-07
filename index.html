@@ -1,125 +1,154 @@
-<html lang="en">
-<title>Waldo?</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src = "whereswaldo.js"></script>
-
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
-.w3-sidebar {
-  z-index: 3;
-  width: 250px;
-  top: 43px;
-  bottom: 0;
-  height: inherit;
-}
-</style>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title> Matthew Caceres | Software Developer & More  </title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
+	
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Matthew Caceres</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    <div>Where's Waldo? Leave this tab open for long enough and maybe he'll show up!</div>
-  </div>
-</div>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home | Portfolio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Art and Design</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fun things</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">My dog</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<!-- Sidebar -->
-<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
-    <i class="fa fa-remove"></i>
-  </a>
-  <h4 class="w3-bar-item"><b>Waldo?</b></h4>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Waldo?</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Waldo?</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Waldo?</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Waldo?</a>
-</nav>
+    <main role="main">
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron" style = "background-image: url(images/space.gif);text-align: center;color:whitesmoke">
+        <div class="container" >
+		  <h1 class="display-3">Welcome</h1>
+		  
+		  <h5 id = "time"></h5>
+        </div>
+	  </div>
+	  
 
-<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-<div class="w3-main" style="margin-left:250px">
+	  <div class = "container">
+				<div class = "row"><h5 style = "margin-bottom: 20px"> Looking for an internship currently. Interested in mobile app development, web development, cloud storage, and some backend work. Looking to broaden my horizon during my undergraduate by learning more technology (front-end and back-end) to truly know what aspect of the industry I want to enter.</h5></div>
+		<div class = "row">
+				<div class="col-md-4">
+						<h2>Education</h2>
+						<ul style = "list-style: none">
+							<li><b>Bachelor of Science in Computer Science</b></li>
+							<li>Stony Brook University, 3.7 GPA</li>
+							<li>University Scholar | Stony Brook Computing Society Member</li>
+						</ul>
+						
+				</div>
+				<div class="col-md-4">
+						<h2>Technical Skills</h2>
+						<ul>
+							<li>Java, Python, Javascript, MySQL, HTML, CSS</li>
+							<li>Windows, Mac OSX</li>
+							<li>React, JavaFX, Bootstrap</li>
+						</ul>
+						
+				</div>
+				<div class="col-md-4">
+						<h2>Work Experience</h2>
+						<p>Looking for part time internship.</p>
+				</div>
+		</div>
+		</div>
+      <div class="container">
+				<!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+						<h2>Graham Scan</h2>
+						<div id="carouselSet" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
 
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Waldo?</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">Waldo?</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">Waldo?</p>
-    </div>
-  </div>
+					  		<div class="carousel-item active">
+									<img class="d-block w-100" src="images/graham1.JPG">
+					  		</div>
+					  		<div class="carousel-item">
+									<img class="d-block w-100" src="images/graham2.JPG">
+					  		</div>
+					  		<div class="carousel-item">
+									<img class="d-block w-100" src="images/graham3.JPG" >
+								</div>
+								
+							</div>
+							
+				  	</div>
+          	<p>Implementation of Graham Scan algorithm for finding a convex hull of a set of points. Written in java as a school project, I decided to show some visuals of the convex hull in addition to printing the proints. There is a randomizer and custom input.</p>
+					</div>
+					<div class="col-md-4">
+							<h2>Maple NoteJotter</h2>
+							<div id="carouselSet" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+	
+									<div class="carousel-item active">
+										<img class="d-block w-100" src="images/maple list.png">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/maple note.png">
+									</div>
 
-  <div class="w3-row">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Waldo?</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">Waldo?</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">Waldo?</p>
-    </div>
-  </div>
+								</div>
+								
+							</div>
+							<p>Created to personally add notes and items to lists with different data inside. Used MySQL, JDBC, and java/javaFX to create. Rough idea of my implementation, but I hope to convert it to a web based app for all and eventually mobile for note jotting needs that need to be more organized.</p>
+						</div>
+        </div>
 
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Waldo?</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">Waldo?</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">Waldo?</p>
-    </div>
-  </div>
+        <hr>
+      </div> <!-- /container -->
 
+    </main>
 
-  <footer id="myFooter">
-    <div class="w3-container w3-theme-l2 w3-padding-32">
-      <h4>Waldo?</h4>
-    </div>
+    <footer class="container">
+	  
+    </footer>
 
-    <div class="w3-container w3-theme-l1">
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-    </div>
-  </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+   
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script>
+			var date = new Date()
+			var hours = date.getHours()
+			var time
 
-<!-- END MAIN -->
-</div>
-
-<script>
-// Get the Sidebar
-var mySidebar = document.getElementById("mySidebar");
-
-// Get the DIV with overlay effect
-var overlayBg = document.getElementById("myOverlay");
-
-// Toggle between showing and hiding the sidebar, and add overlay effect
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-    overlayBg.style.display = "none";
-  } else {
-    mySidebar.style.display = 'block';
-    overlayBg.style.display = "block";
-  }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-  mySidebar.style.display = "none";
-  overlayBg.style.display = "none";
-}
-</script>
-
+			if (hours>4 && hours <12){
+				time = "Top of the morning!"
+			}
+			else if (hours >=12 && hours <18){
+				time = "Good afternoon!"
+			}
+			else{
+				time = "Let the night live on!"
+			}
+			document.getElementById("time").innerHTML = time
+	</script>
 </body>
 </html>
